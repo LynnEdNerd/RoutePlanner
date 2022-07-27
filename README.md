@@ -1,6 +1,6 @@
 # Route Planning Project
 
-This repo contains the starter code for the Route Planning project.
+This repo contains my first C++ project!  It uses an A* algorithm to devise a route between 2 endpoints on a map.  
 
 <img src="map.png" width="600" height="450" />
 
@@ -8,11 +8,11 @@ This repo contains the starter code for the Route Planning project.
 
 When cloning this project, be sure to use the `--recurse-submodules` flag. Using HTTPS:
 ```
-git clone https://github.com/udacity/CppND-Route-Planning-Project.git --recurse-submodules
+git clone https://github.com/LynnEdwardMcqueen/RoutePlanner.git --recurse-submodules
 ```
 or with SSH:
 ```
-git clone git@github.com:udacity/CppND-Route-Planning-Project.git --recurse-submodules
+git clone git@github.com:LynnEdwardMcqueen/RoutePlanner.git --recurse-submodules
 ```
 
 ## Dependencies for Running Locally
@@ -51,7 +51,9 @@ Or to specify a map file:
 ```
 ./OSM_A_star_search -f ../<your_osm_file.osm>
 ```
+<img src=MapExample.gif >
 
+As shown in the greatly simplified chart above, the program lays out the map file on a 100 by 100 grid with the origin at the lower left corner of the map.  You will be prompted for the beginning and ending x,y coordinates for the route.  The program will then devise a route, marking the begin point with a green dot and the ending point as a red dot.  The map will zoom in to show as much detail as possible.  
 ## Testing
 
 The testing executable is also placed in the `build` directory. From within `build`, you can run the unit tests as follows:
